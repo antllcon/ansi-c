@@ -10,6 +10,7 @@
 `temperature-table.c` - вычисление температуры, цикл while
 `temperature-reverse.c` - обратный вывод таблицы - цикл for
 `symbol-test.c` - тестирование ввода-вывода символов
+`copy-stream.c` - копирование потока ввода в поток вывода
 
 ### Компилятор
 Name: gcc
