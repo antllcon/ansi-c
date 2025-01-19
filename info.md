@@ -7,7 +7,9 @@
 
 ### Программы
 `hello-world.c` - вывод в консоль текста "Hello world!"
-`temperature-table.c` - вычисление температуры, форматированный вывод
+`temperature-table.c` - вычисление температуры, цикл while
+`temperature-reverse.c` - обратный вывод таблицы - цикл for
+`symbol-test.c` - тестирование ввода-вывода символов
 
 ### Компилятор
 Name: gcc
