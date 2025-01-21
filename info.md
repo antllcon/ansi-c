@@ -14,6 +14,7 @@
 `count-symbols.c` - подсчет символов
 `count-strings.c` - подсчет строк
 `text-analysis.c` - подсчет данных - табуляции, пробелы и строки
+`correct-blanks.c` - исправление пробелов
 
 ### Компилятор
 Name: gcc
