@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define SUCCESS 0
 #define ERROR 1
+#define NUMBER_OF_DIGITS 10
 
 int main()
 {
@@ -10,7 +11,7 @@ int main()
     int ch, i;
     int count_blanks;
     int count_other;
-    int count_digit[10];
+    int count_digit[NUMBER_OF_DIGITS];
     
     count_blanks = count_other = 0;
     for (i = 0; i <= 9; ++i)
