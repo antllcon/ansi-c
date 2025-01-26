@@ -14,7 +14,7 @@ int main()
     int count_digits[NUMBER_OF_DIGITS];
     
     count_blanks = count_other = 0;
-    for (i = 0; i <= 9; ++i)
+    for (i = 0; i < NUMBER_OF_DIGITS; ++i)
         count_digits[i] = 0;
 
     /* Идея работы с массивом в вычислении номера цифры,
@@ -42,7 +42,7 @@ int main()
     printf("==================\n");
     printf("| Цифра | Кол-во |\n");
     printf("==================\n");
-    for (i = 0; i <= 9; ++i)
+    for (i = 0; i < NUMBER_OF_DIGITS; ++i)
         printf("| %5d | %6d |\n", i, count_digits[i]);
     printf("==================\n");
     printf("%d - кол-во пробельных символов\n", count_blanks);
