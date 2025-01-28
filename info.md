@@ -23,13 +23,14 @@
 `count-digits.c` - подсчет цифр, пробельных символов - массивы и таблица вывода
 `histogram-words.c` - гистограмма сравнения частот длин слов
 `frequency-symbols.c` - гистограмма сравнения частот символов латинского алфавита 
+`power-numbers.c` - программа возведения в степень числа - первые функции
 
 #### Свои программы
 `ascii-table.c` - таблица символов ASCII
 
 ### Компилятор
 Name: gcc
-Version: 13.3.0  
+Version: 13.3.0
 Compilation standard: -std=c89 (ANSI C)
 Thread model: posix (not supported)
 Supported LTO compression algorithms: zlib zstd
