@@ -5,7 +5,7 @@
 #define LOWER 0
 #define STEP 2
 
-float cels_to_fahr(float cels);
+void cels_to_fahr(float cels);
 
 int main() 
 {
@@ -16,10 +16,10 @@ int main()
 
     do
     {
-        printf("Введите значение (float): ");
+        printf("Введите значение по Цельсию (float): ");
         if (scanf("%f", &cels) != 1)
         {
-            printf("не уадлось считать число.\n");
+            printf("не уадлось считать число.\n\n");
             return ERROR;
         }
         cels_to_fahr(cels);
@@ -29,7 +29,7 @@ int main()
     return SUCCESS;
 }
 
-float cels_to_fahr(float cels)
+void cels_to_fahr(float cels)
 {
-    printf("%5.1f - температура по Фаренгейту\n", cels * 1.8 + 32.0);   
+    printf("%5.1f - температура по Фаренгейту\n\n", cels * 1.8 + 32.0);   
 }
